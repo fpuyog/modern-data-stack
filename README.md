@@ -248,7 +248,7 @@ modern-data-stack/
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/modern-data-stack.git
+git clone https://github.com/fpuyog/modern-data-stack.git
 cd modern-data-stack
 ```
 
@@ -492,12 +492,12 @@ This project demonstrates:
 
 ## 👨‍💻 Author
 
-**Your Name**  
+**Francisco Puyó G.**  
 Data Engineer | Python | AWS | PySpark | SQL  
 
-- GitHub: [@your-username](https://github.com/your-username)
-- LinkedIn: [Your Name](https://linkedin.com/in/your-profile)
-- Email: your.email@example.com
+- GitHub: [@fpuyog](https://github.com/fpuyog)
+- LinkedIn: [Francisco Puyó Gallardo](https://linkedin.com/in/fr-puyog)
+- Email: fr.puyog@gmail.com
 
 ---
 

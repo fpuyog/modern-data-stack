@@ -103,6 +103,20 @@ SELECT city_name, avg_temperature, avg_humidity
 FROM modern_data_warehouse.gold_weather_aggregations;
 ```
 
+### Screenshots
+
+**Athena Query Interface**  
+Running SQL queries on the Gold layer:
+
+![Athena Query Example](images/athena_query.png)
+
+**Database Tables**  
+Bronze, Silver, and Gold layers in Athena:
+
+![Athena Tables](images/athena_tables.png)
+
+> **Note**: To add your own screenshots, take screenshots from your AWS Athena console and save them in the `images/` folder with the names shown above.
+
 ## What I Learned
 
 Building this taught me a lot about:

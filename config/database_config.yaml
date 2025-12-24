@@ -1,0 +1,39 @@
+# Database Configuration Example
+# Copy this file to database_config.yaml and fill in your values
+
+postgres:
+  local:
+    host: localhost
+    port: 5432
+    database: airflow
+    username: airflow
+    password: airflow
+  
+  # For AWS RDS (optional)
+  rds:
+    host: your-rds-instance.region.rds.amazonaws.com
+    port: 5432
+    database: data_warehouse
+    username: admin
+    password: YOUR_PASSWORD
+
+# API Credentials
+apis:
+  openweathermap:
+    api_key: d0ccda6fcfa5647ef8f462eb85c01dec
+    base_url: https://api.openweathermap.org/data/2.5
+    cities:
+      - "New York"
+      - "London"
+      - "Tokyo"
+      - "São Paulo"
+      - "Buenos Aires"
+  
+  alphavantage:
+    api_key: 55E7WOF13KW9CQ0X
+    base_url: https://www.alphavantage.co/query
+    symbols:
+      - "AAPL"
+      - "GOOGL"
+      - "MSFT"
+      - "AMZN"

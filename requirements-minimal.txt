@@ -1,0 +1,23 @@
+# Minimal Dependencies for Running Data Pipeline
+# Use this if you don't need Airflow locally (you'll use Docker for Airflow)
+
+# Core Python Libraries
+python-dotenv==1.0.0
+pyyaml==6.0.1
+requests==2.31.0
+
+# AWS SDK
+boto3==1.34.20
+
+# Data Processing
+pandas==2.1.4
+numpy==1.26.2
+
+# Database (for ingestion scripts)
+psycopg2-binary==2.9.9
+
+# Logging
+loguru==0.7.2
+
+# Utilities
+tqdm==4.66.1

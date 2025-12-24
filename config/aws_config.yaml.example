@@ -1,0 +1,27 @@
+# AWS Configuration Example
+# Copy this file to aws_config.yaml and fill in your values
+
+aws:
+  region: us-east-1
+  profile: default  # or specify your AWS profile name
+  
+s3:
+  bronze_bucket: modern-data-stack-bronze
+  silver_bucket: modern-data-stack-silver
+  gold_bucket: modern-data-stack-gold
+  
+  # Prefixes for organization
+  prefixes:
+    weather: weather/
+    stocks: stocks/
+    transactions: transactions/
+    users: users/
+
+athena:
+  database: modern_data_warehouse
+  workgroup: primary
+  output_location: s3://modern-data-stack-athena-results/
+
+lambda:
+  function_name: modern-data-stack-trigger
+  role_arn: arn:aws:iam::YOUR_ACCOUNT_ID:role/lambda-execution-role
